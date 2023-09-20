@@ -13,17 +13,18 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body style="padding: 4rem">
-    <div class="callout callout--primary">
-      <div class="grid grid--1x2">
-        <div class="callout__content">
-          <h2 class="callout__heading">Ready to get started?</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque
-            nihil nemo debitis quo non est culpa error exercitationem deserunt.
-          </p>
-        </div>
-        <a href="#" class="btn btn--secondary btn--stretched">Get started</a>
+    <div class="collapsible collapsible--expanded">
+      <header class="collapsible__header">
+        <h2 class="collapsible__heading">Item 1</h2>
+        <svg class="icon icon--white collapsible__chevron">
+          <use xlink:href="images/sprite.svg#chevron"></use>
+        </svg>
+      </header>
+      <div class="collapsible__content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nisi enim
+        hic eaque. Dolore alias distinctio qui autem laborum labore?
       </div>
     </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
